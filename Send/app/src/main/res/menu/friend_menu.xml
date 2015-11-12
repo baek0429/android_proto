@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item-->
+        <!--android:id="@+id/search_friend"-->
+        <!--android:icon="@drawable/abc_ic_search_api_mtrl_alpha"-->
+        <!--android:title="@string/hello_world"-->
+        <!--app:actionViewClass="android.widget.SearchView"-->
+        <!--app:showAsAction="collapseActionView|ifRoom"/>-->
+    <item
+        android:id="@+id/action_add_friend"
+        android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+        android:title="@string/add_friend"
+        app:showAsAction="collapseActionView|ifRoom"/>
+
+</menu>
